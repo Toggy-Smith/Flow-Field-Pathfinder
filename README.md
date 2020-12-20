@@ -6,7 +6,7 @@ This flow-field pathfinder directs a collection of agents toward a common goal. 
 
 ## How can it be used?
 
-You can change the default map size and window size in the settings.txt file. They are the first and second numbers respectively.
+You can change the default map size and agent movement speed in the settings.txt file. They are the first and second numbers respectively.
 
 To create an obstacle you press the left mouse button while hovering over a tile. To remove an obstacle do the same but with the right mouse button.
 
