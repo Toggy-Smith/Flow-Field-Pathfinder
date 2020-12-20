@@ -4,6 +4,18 @@
 
 This flow-field pathfinder directs a collection of agents toward a common goal. It can be useful when pathfinding for a large number of agents since its performance is independent of the number of agents.
 
+## How can it be used?
+
+You can change the default map size and window size in the settings.txt file. They are the first and second numbers respectively.
+
+To create an obstacle you press the left mouse button while hovering over a tile. To remove an obstacle do the same but with the right mouse button.
+
+To change the position of the green goal tile you can press space while hovering over a tile.
+
+You can create an agent by pressing E while hovering over a spot. Agent movement can be toggled using the backspace key.
+
+Further information can be shown by pressing 2 - display the Dijktra map, 3 - display the unnormalisesd direction vectors in column notation, 4 - display the normalised direction vectors in column notation, and 5 - show the direction vectors as arrows. You can get rid of this information by pressing 1.
+
 ## How does it work?
 
 Before path planning, the map is discretized into a grid of tiles, some of which are marked as obstacles which the agents cannot traverse over.
